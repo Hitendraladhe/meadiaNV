@@ -1,0 +1,216 @@
+
+.con{
+    display: flex;
+    flex-direction: row;   
+    height: 100vh;
+    width: 100%; 
+}
+.input{
+    height: 0.4rem;
+    width: 4rem;
+    margin: .1rem;
+    border-radius: .5rem;
+    border: 1px black solid ;
+    font-size: .2rem;
+}
+.createBtn{
+    height: .8rem;
+    width: 2.2rem;
+    font-size: .4rem;
+    border-radius: .3rem;
+    margin-left: auto;
+    border: 1px #fff solid;
+}
+.ulNavi {
+    display: flex;
+    list-style: none;
+    font-size: 0.3rem;
+    color: #545458;
+    gap: .5rem;
+    margin-bottom: 0.1rem;
+    
+}
+.ulNavi li{
+    gap: .3rem;
+    color: #545458;
+}
+.ulnfo{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.ulnfo li{
+    margin: 0.1rem;
+    color: #777777;
+}
+.ulInfo1 li{
+    margin: 0.1rem;
+    color: #777777;
+    
+}
+.ulInfo1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.calBtn{
+    height: .7rem;
+    width: 2rem;
+    background-color: #fff;
+    margin: .3rem;
+}
+.navigationBarCon{
+    display: flex;
+    flex-direction: row;
+    height: .5rem;
+    padding: .3rem;
+    background-color: #fff;
+    width: 100%;
+    
+}
+.spanLogo{
+    height: 80px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #545458;
+    color: #545458;
+}
+.naviItem{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.3rem;
+    height: auto;
+    padding-top: 1rem;
+}
+.ulDown1{
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 0.7rem; 
+}
+.iconCone{
+    color: #150d50;
+}
+
+.ulDown2{
+    display: block;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    padding-left: .4rem;
+    font-size: .4rem;
+    margin-top: 5rem; 
+}
+.ulSide{
+    display: flex;
+    flex-direction: column;
+    list-style: none;   
+    min-height: 120vh;
+    width: 15vw; 
+    z-index: 2;
+    background-color: #fcfbfb;
+    font-size: 0.5rem;
+    margin: 0rem;
+    box-shadow: 0px 0px 1px black;
+}
+.mainCon{
+   display: flex;
+   flex-direction: column;
+   padding-top: 2rem;
+   height: 100vh;
+   width: 80vw;
+}
+.list{
+  margin-left: -40px;
+  padding-top: .2rem;
+  font-size: 0.3rem;
+}
+.checkBox{
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+
+.Btn{
+    height: 0.6rem;
+    width: auto;
+    font-size: 0.2rem;
+    margin: 0.2rem;
+    background-color: #fcfbfb;
+    box-shadow: 0px 0px 0.2px rgb(186, 185, 185);
+    border: 0.3px black solid;
+}
+
+.Btn-ref{
+    height: 0.6rem;
+    width: 1.5rem;
+    font-size: 3px;
+    margin: 0.2rem;
+    padding: 2px;
+    margin-left: 14rem;
+    background-color: #131029;
+    color: #fcfbfb;
+    box-shadow: 0px 0px 0.2px rgb(186, 185, 185);
+    border: 0.3px black solid; 
+}
+.ref-icon{
+    font-size:2px ;
+}
+.detailsCon{
+    display: flex;
+    flex-direction: column;
+    height: 2.8rem;
+    font-size: 0.3rem;    
+    width: 100%;
+    box-shadow: 0px 0px 2px black;
+}
+.btnCon{
+  display: flex;
+  flex-direction: row;
+  
+}
+.setting{
+    display: flex;
+    flex-direction: row;
+    padding-top: .2rem;
+    background-color: rgba(0, 0,0.1, 0.1);
+    
+}
+
+
+.liNavi{
+    font-size: 0.3rem;
+    justify-items: right;
+}
+
+.tableHeading{
+    background-color: #150d50;
+    color: #f0f0f6;
+    font-size: .3rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tableData{
+    background-color: #efeef3;
+    color: #545458;
+    font-size: .2rem;
+}
+@media screen and (min-width:800px){
+    
+  html{
+     font-size: 250%;
+  }
+}
+@media screen and (max-width:800px){
+    
+    html{
+       font-size: 100%;
+    }
+  }
